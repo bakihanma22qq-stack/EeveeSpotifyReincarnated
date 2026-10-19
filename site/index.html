@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EeveeSpotifyReincarnated</title>
+  <meta name="description" content="EeveeSpotifyReincarnated — an iOS tweak for Spotify with custom lyrics support.">
+  <style>
+    :root { color-scheme: dark; --bg:#0d0f0e; --fg:#e9efe9; --muted:#9aa59c; --accent:#1ed760; --card:#161a17; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+    main { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    img.banner { width:100%; height:auto; border-radius: 12px; display:block; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 2rem 0 .25rem; letter-spacing:-.02em; }
+    h2 { font-size: 1.15rem; margin-top: 2.25rem; color: var(--accent); }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); }
+    .btn { display:inline-block; margin-top:1.25rem; padding:.7rem 1.2rem; background:var(--accent); color:#04130a; border-radius:999px; font-weight:600; text-decoration:none; }
+    .card { background:var(--card); border-radius:12px; padding:1rem 1.25rem; margin-top:1rem; }
+    footer { margin-top:3rem; font-size:.85rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="banner" src="banner.png" alt="EeveeSpotifyReincarnated banner">
+    <h1>EeveeSpotifyReincarnated</h1>
+    <p>An iOS tweak for Spotify that unlocks premium-style listening and adds extra features such as custom lyrics, continuing the legacy of EeveeSpotify for newer Spotify versions.</p>
+    <a class="btn" href="https://github.com/jaydenjcpy/EeveeSpotifyReincarnated">View on GitHub</a>
+
+    <h2>Custom lyrics providers</h2>
+    <ul>
+      <li>SpicyLyrics</li>
+      <li>Musixmatch</li>
+      <li>LRCLIB</li>
+      <li>Genius</li>
+      <li>PetitLyrics</li>
+    </ul>
+
+    <h2>Building the IPA</h2>
+    <div class="card">
+      <p>IPA packages are not distributed here. Fork the repository on GitHub and run the <strong>Create IPA Packages</strong> workflow from the Actions tab, following the instructions in the README.</p>
+    </div>
+
+    <h2>Help</h2>
+    <p>Before opening an issue, check the <a href="https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md">common issues</a> guide.</p>
+
+    <footer>Maintained by jaydenjcpy, faroukbmiled &amp; Mod4.</footer>
+  </main>
+</body>
+</html>

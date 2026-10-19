@@ -1,0 +1,8 @@
+# This repository is an iOS tweak (Swift/Theos) and cannot be built on Netlify.
+# Netlify only deploys the static project page in `site/`. Using it as the base
+# directory keeps Netlify from detecting the root Package.swift and attempting
+# to install a Swift toolchain during dependency installation.
+[build]
+  base = "site"
+  publish = "."
+  command = ""
